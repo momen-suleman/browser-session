@@ -1,0 +1,5 @@
+{
+  "name": "Browser Session",
+  "version": "1.0.0",
+  "description": "Recorded, remotely controlled browser sessions (Playwright): video, trace, network log and a step report for every session."
+}

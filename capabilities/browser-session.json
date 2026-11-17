@@ -1,0 +1,8 @@
+{
+  "kind": "capability",
+  "name": "Browser Session",
+  "category": "External",
+  "endpoint": "http://127.0.0.1:9334",
+  "timeoutSecs": 300,
+  "description": "Runs a JSON browser action (session.start with commands, session.run, session.close, recording.get) and returns a JSON result."
+}

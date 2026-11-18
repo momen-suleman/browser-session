@@ -68,10 +68,10 @@ One-shot recording:
 ```sh
 curl -s -X POST localhost:9334/sessions -H "Authorization: Bearer $KEY" \
   -H 'Content-Type: application/json' -d '{
-    "label": "Example", "start_url": "https://example.com", "close": true,
+    "label": "Playwright docs", "start_url": "https://playwright.dev/", "close": true,
     "commands": [
       {"action": "extract", "selector": "h1", "name": "heading"},
-      {"action": "click", "role": "link", "name": "Learn more"},
+      {"action": "click", "role": "link", "name": "Get started"},
       {"action": "screenshot", "name": "after", "full_page": true}
     ]}'
 ```
